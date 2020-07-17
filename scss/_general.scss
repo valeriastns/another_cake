@@ -1,0 +1,25 @@
+$main-color:#EE9E95;
+
+
+.site-branding {
+    a img {
+        width: 150px;
+        border-radius: 100%;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+}
+
+#site-navigation ul li a {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: #838383;
+    text-transform: capitalize;
+        &:hover {
+        color: $main-color;
+    }
+}

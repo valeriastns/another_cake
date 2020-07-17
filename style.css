@@ -1,0 +1,28 @@
+/*
+ Theme Name:   Another cake
+ Description:  Another cake developed by Valeria incorporated
+ Author:       Valeria Artamonova
+ Template:     wp-diary
+*/
+/* line 5, scss/_general.scss */
+.site-branding a img {
+  width: 150px;
+  border-radius: 100%;
+}
+/* line 10, scss/_general.scss */
+.site-branding p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+/* line 17, scss/_general.scss */
+#site-navigation ul li a {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  color: #838383;
+  text-transform: capitalize;
+}
+/* line 22, scss/_general.scss */
+#site-navigation ul li a:hover {
+  color: #EE9E95;
+}
