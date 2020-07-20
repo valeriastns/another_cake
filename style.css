@@ -4,25 +4,180 @@
  Author:       Valeria Artamonova
  Template:     wp-diary
 */
-/* line 5, scss/_general.scss */
+/* line 9, scss/_general.scss */
+.mt-social-icon-wrap li a {
+  color: #838383;
+}
+
+/* line 14, scss/_general.scss */
 .site-branding a img {
   width: 150px;
   border-radius: 100%;
 }
-/* line 10, scss/_general.scss */
+/* line 19, scss/_general.scss */
 .site-branding p {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 
-/* line 17, scss/_general.scss */
+/* line 26, scss/_general.scss */
 #site-navigation ul li a {
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
   color: #838383;
   text-transform: capitalize;
 }
-/* line 22, scss/_general.scss */
+/* line 32, scss/_general.scss */
 #site-navigation ul li a:hover {
   color: #EE9E95;
+}
+
+/* line 37, scss/_general.scss */
+.custom-header.no-bg-img {
+  display: none;
+}
+
+/* line 43, scss/_general.scss */
+.addtoany_content {
+  display: none;
+}
+/* line 45, scss/_general.scss */
+.addtoany_content .addtoany_share {
+  display: none;
+}
+
+/* line 2, scss/_delivery.scss */
+.delivery-page .delivery-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 2, scss/_about.scss */
+.about-page .entry-content {
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 7, scss/_about.scss */
+.about-page .wp-block-group__inner-container {
+  display: block;
+  text-align-last: left;
+  padding: 30px;
+}
+/* line 13, scss/_about.scss */
+.about-page .wp-block-group p {
+  color: #525252;
+  font-size: 16px;
+}
+/* line 17, scss/_about.scss */
+.about-page .wp-block-group p span {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 600;
+  font-size: 25px;
+  color: #AABE7F;
+}
+/* line 24, scss/_about.scss */
+.about-page .wp-block-group p .another-color {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 600;
+  font-size: 25px;
+  color: #B2B0D7;
+}
+/* line 31, scss/_about.scss */
+.about-page .wp-block-group p .no {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+}
+/* line 37, scss/_about.scss */
+.about-page .wp-block-group ul {
+  list-style: none;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #525252;
+}
+/* line 43, scss/_about.scss */
+.about-page .wp-block-group ul li:before {
+  content: "\2022";
+  color: #EE9E95;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+/* line 54, scss/_about.scss */
+.about-page .wp-block-image.is-resized {
+  margin: 0 auto;
+  position: relative;
+}
+/* line 57, scss/_about.scss */
+.about-page .wp-block-image.is-resized:before {
+  content: "";
+  width: 351px;
+  height: 351px;
+  background-color: #B2B0D7;
+  position: absolute;
+  left: -10px;
+  top: -15px;
+  z-index: 0;
+  border-radius: 100%;
+}
+/* line 68, scss/_about.scss */
+.about-page .wp-block-image.is-resized img {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 2, scss/_contacts.scss */
+.contacts-page .entry-content {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column-reverse;
+}
+/* line 8, scss/_contacts.scss */
+.contacts-page .entry-content .wpforms-container-full {
+  text-align: left;
+  margin: 0;
+}
+/* line 12, scss/_contacts.scss */
+.contacts-page .entry-content .wpforms-container-full .wpforms-field-label {
+  font-family: 'Amatic SC', cursive;
+  color: #AABE7F;
+  font-size: 22px;
+}
+/* line 18, scss/_contacts.scss */
+.contacts-page .entry-content .wpforms-container-full .wpforms-submit {
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  color: #525252;
+  background-color: white;
+  border: 1px solid #AABE7F;
+  width: 150px;
+}
+/* line 28, scss/_contacts.scss */
+.contacts-page .entry-content p {
+  font-size: 16px;
+}
+/* line 30, scss/_contacts.scss */
+.contacts-page .entry-content p span {
+  font-weight: 400;
+  color: #838383;
+}
+/* line 37, scss/_contacts.scss */
+.contacts-page .addtoany_content {
+  display: block;
+}
+/* line 42, scss/_contacts.scss */
+.contacts-page .addtoany_content .a2a_button_whatsapp svg,
+.contacts-page .addtoany_content .a2a_button_viber svg {
+  top: 2px;
+  width: 28px;
+}
+/* line 48, scss/_contacts.scss */
+.contacts-page .addtoany_content .a2a_button_whatsapp > span {
+  background-color: #AABE7F !important;
+  border-radius: 100%;
+}
+/* line 54, scss/_contacts.scss */
+.contacts-page .addtoany_content .a2a_button_viber > span {
+  background-color: #B2B0D7 !important;
+  border-radius: 100%;
 }

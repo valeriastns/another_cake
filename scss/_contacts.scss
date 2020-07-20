@@ -1,0 +1,59 @@
+.contacts-page {
+    .entry-content {
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: column-reverse;
+        
+
+        .wpforms-container-full {
+            text-align: left;
+            margin: 0;
+
+            .wpforms-field-label {
+                font-family: 'Amatic SC', cursive;
+                color: $green;
+                font-size: 22px;
+            }
+
+            .wpforms-submit {
+                font-family: 'Amatic SC', cursive;
+                font-size: 20px;
+                color: $dark-grey;
+                background-color: white;
+                border: 1px solid $green;
+                width: 150px;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            span{
+                font-weight: 400;
+                color:$grey-color;
+            }
+        }
+    }
+
+    .addtoany_content {
+        display: block;
+
+        .a2a_button_whatsapp,
+        .a2a_button_viber {
+            svg {
+                top: 2px;
+                width: 28px;
+            }
+        }
+
+        .a2a_button_whatsapp>span {
+            background-color: $green !important;
+            border-radius: 100%;
+
+        }
+
+        .a2a_button_viber>span {
+            background-color: $purple !important;
+            border-radius: 100%;
+        }
+    }
+}

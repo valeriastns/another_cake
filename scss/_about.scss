@@ -1,0 +1,73 @@
+.about-page {
+    .entry-content {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .wp-block-group {
+        &__inner-container {
+            display: block;
+            text-align-last: left;
+            padding: 30px;
+        }
+
+        p {
+            color: $dark-grey;
+            font-size: 16px;
+
+            span {
+                font-family: 'Amatic SC', cursive;
+                font-weight: 600;
+                font-size: 25px;
+                color: $green;
+            }
+
+            .another-color {
+                font-family: 'Amatic SC', cursive;
+                font-weight: 600;
+                font-size: 25px;
+                color: $purple;
+            }
+
+            .no {
+                font-family: 'Amatic SC', cursive;
+                font-size: 25px;
+            }
+        }
+
+        ul {
+            list-style: none;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            color: $dark-grey;
+
+            li:before {
+                content: "\2022";
+                color: $main-color;
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-left: -1em;
+            }
+        }
+    }
+
+    .wp-block-image.is-resized {
+        margin: 0 auto;
+        position: relative;
+        &:before {
+            content: "";
+            width: 351px;
+            height: 351px;
+            background-color: $purple;
+            position: absolute;
+            left: -10px;
+            top: -15px;
+            z-index: 0;
+            border-radius: 100%
+        }
+        img {
+            position: relative;
+            z-index: 1;
+        }
+    }
+}
