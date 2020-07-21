@@ -52,6 +52,37 @@
   flex-direction: column;
   align-items: center;
 }
+/* line 6, scss/_delivery.scss */
+.delivery-page .delivery-info div:nth-child(1) {
+  margin-top: 50px;
+}
+/* line 10, scss/_delivery.scss */
+.delivery-page .delivery-info .img-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border: 1px solid #EE9E95;
+  border-radius: 100%;
+}
+/* line 17, scss/_delivery.scss */
+.delivery-page .delivery-info .img-icon.ams-deliv {
+  background: url("icons/holland3-512.webp") center no-repeat;
+  background-size: 60px;
+}
+/* line 21, scss/_delivery.scss */
+.delivery-page .delivery-info .img-icon.pick-up {
+  background: url("icons/35677.svg") center no-repeat;
+  background-size: 40px;
+}
+/* line 26, scss/_delivery.scss */
+.delivery-page .delivery-info .img-icon.dhl-deliv {
+  background: url("icons/35523.svg") center no-repeat;
+  background-size: 50px;
+}
+/* line 31, scss/_delivery.scss */
+.delivery-page p {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* line 2, scss/_about.scss */
 .about-page .entry-content {

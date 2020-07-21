@@ -3,5 +3,32 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        div:nth-child(1) {
+            margin-top: 50px;
+        }
+ 
+        .img-icon {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+            border: 1px solid $main-color;
+            border-radius:100%;
+        }
+        .img-icon.ams-deliv {
+            background:url('icons/holland3-512.webp')center no-repeat;
+            background-size:60px;
+        }
+        .img-icon.pick-up {
+            background:url('icons/35677.svg')center no-repeat;
+            background-size: 40px;
+            
+        } 
+        .img-icon.dhl-deliv {
+            background:url('icons/35523.svg')center no-repeat;
+            background-size: 50px;
+        }
+    }
+    p {
+        font-family: 'Montserrat', sans-serif;
     }
 }
