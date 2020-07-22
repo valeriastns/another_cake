@@ -18,7 +18,8 @@ $grey-color:#838383;
 
     p {
         font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
+        font-size: 16px;
+        text-transform: capitalize;
     }
 
 }
@@ -38,13 +39,46 @@ $grey-color:#838383;
     display: none;
 }
 
-///MAIN 
+///MODULA GALLERY
 
-.addtoany_content {
-    display: none;
-    .addtoany_share {
-        display: none;
+#jtg-119 {
+    .modula-items {
+        .figc {
+            .jtg-title {
+                display: none;
+
+                &:hover {
+                    display: none;
+                }
+
+            }
+        }
     }
 }
 
+
+
 ///FOOTER 
+
+#top-footer {
+    .inst-link {
+        text-align: center;
+
+        a {
+            font-family: 'Amatic SC', cursive;
+            font-size: 22px;
+            font-weight: 900;
+            color: $green;
+        }
+    }
+}
+
+#bottom-footer {
+    padding: 0;
+
+    .site-info {
+        float: none;
+        text-align: center;
+        display: none;
+    }
+}

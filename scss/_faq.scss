@@ -1,0 +1,17 @@
+#wpsm_accordion_100 {
+    text-align-last: left;
+
+    .wpsm_panel-default {
+        .wpsm_panel-title a {
+            font-family: 'Amatic SC', cursive;
+            .ac_open_cl_icon {
+                color:$purple!important;
+            }
+
+        }
+
+        .wpsm_panel-body {
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}

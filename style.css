@@ -17,32 +17,56 @@
 /* line 19, scss/_general.scss */
 .site-branding p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
+  text-transform: capitalize;
 }
 
-/* line 26, scss/_general.scss */
+/* line 27, scss/_general.scss */
 #site-navigation ul li a {
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
   color: #838383;
   text-transform: capitalize;
 }
-/* line 32, scss/_general.scss */
+/* line 33, scss/_general.scss */
 #site-navigation ul li a:hover {
   color: #EE9E95;
 }
 
-/* line 37, scss/_general.scss */
+/* line 38, scss/_general.scss */
 .custom-header.no-bg-img {
   display: none;
 }
 
-/* line 43, scss/_general.scss */
-.addtoany_content {
+/* line 47, scss/_general.scss */
+#jtg-119 .modula-items .figc .jtg-title {
   display: none;
 }
-/* line 45, scss/_general.scss */
-.addtoany_content .addtoany_share {
+/* line 50, scss/_general.scss */
+#jtg-119 .modula-items .figc .jtg-title:hover {
+  display: none;
+}
+
+/* line 64, scss/_general.scss */
+#top-footer .inst-link {
+  text-align: center;
+}
+/* line 67, scss/_general.scss */
+#top-footer .inst-link a {
+  font-family: 'Amatic SC', cursive;
+  font-size: 22px;
+  font-weight: 900;
+  color: #AABE7F;
+}
+
+/* line 76, scss/_general.scss */
+#bottom-footer {
+  padding: 0;
+}
+/* line 79, scss/_general.scss */
+#bottom-footer .site-info {
+  float: none;
+  text-align: center;
   display: none;
 }
 
@@ -183,32 +207,49 @@
   border: 1px solid #AABE7F;
   width: 150px;
 }
-/* line 28, scss/_contacts.scss */
+/* line 25, scss/_contacts.scss */
+.contacts-page .entry-content .wpforms-container-full .wpforms-submit:hover {
+  background-color: #AABE7F;
+}
+/* line 31, scss/_contacts.scss */
 .contacts-page .entry-content p {
   font-size: 16px;
 }
-/* line 30, scss/_contacts.scss */
+/* line 33, scss/_contacts.scss */
 .contacts-page .entry-content p span {
   font-weight: 400;
   color: #838383;
 }
-/* line 37, scss/_contacts.scss */
-.contacts-page .addtoany_content {
-  display: block;
+/* line 39, scss/_contacts.scss */
+.contacts-page .social-icons a {
+  font-size: 30px;
+  padding: 4px 6px;
+  border-radius: 100%;
 }
-/* line 42, scss/_contacts.scss */
-.contacts-page .addtoany_content .a2a_button_whatsapp svg,
-.contacts-page .addtoany_content .a2a_button_viber svg {
-  top: 2px;
-  width: 28px;
+/* line 44, scss/_contacts.scss */
+.contacts-page .social-icons a:nth-child(1) {
+  color: white;
+  background-color: #AABE7F;
 }
 /* line 48, scss/_contacts.scss */
-.contacts-page .addtoany_content .a2a_button_whatsapp > span {
-  background-color: #AABE7F !important;
-  border-radius: 100%;
+.contacts-page .social-icons a:nth-child(2) {
+  color: white;
+  background-color: #B2B0D7;
 }
-/* line 54, scss/_contacts.scss */
-.contacts-page .addtoany_content .a2a_button_viber > span {
-  background-color: #B2B0D7 !important;
-  border-radius: 100%;
+
+/* line 1, scss/_faq.scss */
+#wpsm_accordion_100 {
+  text-align-last: left;
+}
+/* line 5, scss/_faq.scss */
+#wpsm_accordion_100 .wpsm_panel-default .wpsm_panel-title a {
+  font-family: 'Amatic SC', cursive;
+}
+/* line 7, scss/_faq.scss */
+#wpsm_accordion_100 .wpsm_panel-default .wpsm_panel-title a .ac_open_cl_icon {
+  color: #B2B0D7 !important;
+}
+/* line 13, scss/_faq.scss */
+#wpsm_accordion_100 .wpsm_panel-default .wpsm_panel-body {
+  font-family: 'Montserrat', sans-serif;
 }

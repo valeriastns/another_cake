@@ -22,6 +22,9 @@
                 background-color: white;
                 border: 1px solid $green;
                 width: 150px;
+                &:hover {
+                    background-color:$green;
+                }
             }
         }
 
@@ -33,27 +36,20 @@
             }
         }
     }
-
-    .addtoany_content {
-        display: block;
-
-        .a2a_button_whatsapp,
-        .a2a_button_viber {
-            svg {
-                top: 2px;
-                width: 28px;
-            }
+    .social-icons a{
+        font-size: 30px;
+        padding: 4px 6px;
+        border-radius: 100%;
+     
+        &:nth-child(1) {
+            color:white;
+            background-color:$green;
+        }
+        &:nth-child(2) {
+            color:white;
+            background-color: $purple;
+            
         }
 
-        .a2a_button_whatsapp>span {
-            background-color: $green !important;
-            border-radius: 100%;
-
-        }
-
-        .a2a_button_viber>span {
-            background-color: $purple !important;
-            border-radius: 100%;
-        }
     }
 }
