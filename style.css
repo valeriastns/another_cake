@@ -6,7 +6,7 @@
 */
 /* line 9, scss/_general.scss */
 .mt-social-icon-wrap li a {
-  color: #838383;
+  color: #C8CAB5;
 }
 
 /* line 14, scss/_general.scss */
@@ -18,40 +18,41 @@
 .site-branding p {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  text-transform: capitalize;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 
-/* line 27, scss/_general.scss */
+/* line 28, scss/_general.scss */
 #site-navigation ul li a {
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
   color: #838383;
   text-transform: capitalize;
 }
-/* line 33, scss/_general.scss */
+/* line 34, scss/_general.scss */
 #site-navigation ul li a:hover {
   color: #EE9E95;
 }
 
-/* line 38, scss/_general.scss */
+/* line 39, scss/_general.scss */
 .custom-header.no-bg-img {
   display: none;
 }
 
-/* line 47, scss/_general.scss */
+/* line 48, scss/_general.scss */
 #jtg-119 .modula-items .figc .jtg-title {
   display: none;
 }
-/* line 50, scss/_general.scss */
+/* line 51, scss/_general.scss */
 #jtg-119 .modula-items .figc .jtg-title:hover {
   display: none;
 }
 
-/* line 64, scss/_general.scss */
+/* line 65, scss/_general.scss */
 #top-footer .inst-link {
   text-align: center;
 }
-/* line 67, scss/_general.scss */
+/* line 68, scss/_general.scss */
 #top-footer .inst-link a {
   font-family: 'Amatic SC', cursive;
   font-size: 22px;
@@ -59,17 +60,100 @@
   color: #AABE7F;
 }
 
-/* line 76, scss/_general.scss */
+/* line 77, scss/_general.scss */
 #bottom-footer {
   padding: 0;
 }
-/* line 79, scss/_general.scss */
+/* line 80, scss/_general.scss */
 #bottom-footer .site-info {
   float: none;
   text-align: center;
   display: none;
 }
 
+@media screen and (max-width: 576px) {
+  /* line 2, scss/_media.scss */
+  .site-branding {
+    width: 100% !important;
+  }
+  /* line 5, scss/_media.scss */
+  .site-branding p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  /* line 11, scss/_media.scss */
+  .menu-toggle {
+    background: #C8CAB5;
+  }
+  /* line 14, scss/_media.scss */
+  .menu-toggle:hover {
+    background: #C8CAB5 !important;
+  }
+  /* line 18, scss/_media.scss */
+  .menu-toggle a {
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+  }
+
+  /* line 24, scss/_media.scss */
+  #site-navigation ul li a {
+    font-size: 23px !important;
+  }
+
+  /* line 31, scss/_media.scss */
+  .about-page .entry-content .wp-block-group__inner-container {
+    padding: 20px 0;
+  }
+  /* line 38, scss/_media.scss */
+  .about-page .wp-block-image.is-resized:before {
+    display: none;
+  }
+
+  /* line 55, scss/_media.scss */
+  #wpsm_accordion_100 .wpsm_panel-default .wpsm_panel-body {
+    text-align: left;
+  }
+
+  /* line 63, scss/_media.scss */
+  .contacts-page .social-icons a:nth-child(1) {
+    background-color: #C8CAB5 !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* line 70, scss/_media.scss */
+  .site-branding {
+    width: 100%;
+  }
+  /* line 72, scss/_media.scss */
+  .site-branding p {
+    margin-bottom: 0;
+  }
+
+  /* line 76, scss/_media.scss */
+  .menu-toggle {
+    background: #C8CAB5;
+  }
+  /* line 79, scss/_media.scss */
+  .menu-toggle:hover {
+    background: #C8CAB5 !important;
+  }
+  /* line 83, scss/_media.scss */
+  .menu-toggle a {
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+  }
+
+  /* line 88, scss/_media.scss */
+  #site-navigation ul li a {
+    font-size: 23px !important;
+  }
+
+  /* line 93, scss/_media.scss */
+  .contacts-page .social-icons a:nth-child(1) {
+    background-color: #C8CAB5 !important;
+  }
+}
 /* line 2, scss/_delivery.scss */
 .delivery-page .delivery-info {
   display: flex;
@@ -115,7 +199,7 @@
 /* line 7, scss/_about.scss */
 .about-page .wp-block-group__inner-container {
   display: block;
-  text-align-last: left;
+  text-align: -webkit-left;
   padding: 30px;
 }
 /* line 13, scss/_about.scss */
@@ -245,11 +329,15 @@
 #wpsm_accordion_100 .wpsm_panel-default .wpsm_panel-title a {
   font-family: 'Amatic SC', cursive;
 }
-/* line 7, scss/_faq.scss */
-#wpsm_accordion_100 .wpsm_panel-default .wpsm_panel-title a .ac_open_cl_icon {
-  color: #B2B0D7 !important;
+/* line 8, scss/_faq.scss */
+#wpsm_accordion_100 .wpsm_panel-default .wpsm_panel-title a .ac_title_class {
+  font-size: 20px;
 }
-/* line 13, scss/_faq.scss */
+/* line 12, scss/_faq.scss */
+#wpsm_accordion_100 .wpsm_panel-default .wpsm_panel-title a .ac_open_cl_icon {
+  color: #C8CAB5 !important;
+}
+/* line 17, scss/_faq.scss */
 #wpsm_accordion_100 .wpsm_panel-default .wpsm_panel-body {
   font-family: 'Montserrat', sans-serif;
 }

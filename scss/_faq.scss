@@ -4,10 +4,14 @@
     .wpsm_panel-default {
         .wpsm_panel-title a {
             font-family: 'Amatic SC', cursive;
-            .ac_open_cl_icon {
-                color:$purple!important;
+
+            .ac_title_class {
+                font-size: 20px;
             }
 
+            .ac_open_cl_icon {
+                color: $dusty-green!important;
+            }
         }
 
         .wpsm_panel-body {

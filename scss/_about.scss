@@ -6,7 +6,7 @@
     .wp-block-group {
         &__inner-container {
             display: block;
-            text-align-last: left;
+            text-align: -webkit-left;
             padding: 30px;
         }
 

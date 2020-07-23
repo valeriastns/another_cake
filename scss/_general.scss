@@ -7,7 +7,7 @@ $grey-color:#838383;
 ///HEADER
 
 .mt-social-icon-wrap li a {
-    color: $grey-color;
+    color: $dusty-green;
 }
 
 .site-branding {
@@ -19,7 +19,8 @@ $grey-color:#838383;
     p {
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
-        text-transform: capitalize;
+        font-weight: 100;
+        text-transform: uppercase;
     }
 
 }
