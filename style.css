@@ -18,41 +18,52 @@
 .site-branding p {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  font-weight: 100;
-  text-transform: uppercase;
+  font-weight: 400;
+  text-transform: capitalize;
 }
 
-/* line 28, scss/_general.scss */
+/* line 29, scss/_general.scss */
 #site-navigation ul li a {
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
   color: #838383;
   text-transform: capitalize;
+  margin-right: 30px;
 }
-/* line 34, scss/_general.scss */
+/* line 36, scss/_general.scss */
 #site-navigation ul li a:hover {
   color: #EE9E95;
 }
 
-/* line 39, scss/_general.scss */
+/* line 41, scss/_general.scss */
+#sticky-wrapper {
+  height: 0;
+}
+
+/* line 44, scss/_general.scss */
+#site-navigation ul li.current-menu-item a {
+  color: #EE9E95;
+}
+
+/* line 50, scss/_general.scss */
 .custom-header.no-bg-img {
   display: none;
 }
 
-/* line 48, scss/_general.scss */
+/* line 59, scss/_general.scss */
 #jtg-119 .modula-items .figc .jtg-title {
   display: none;
 }
-/* line 51, scss/_general.scss */
+/* line 62, scss/_general.scss */
 #jtg-119 .modula-items .figc .jtg-title:hover {
   display: none;
 }
 
-/* line 65, scss/_general.scss */
+/* line 76, scss/_general.scss */
 #top-footer .inst-link {
   text-align: center;
 }
-/* line 68, scss/_general.scss */
+/* line 79, scss/_general.scss */
 #top-footer .inst-link a {
   font-family: 'Amatic SC', cursive;
   font-size: 22px;
@@ -60,11 +71,11 @@
   color: #AABE7F;
 }
 
-/* line 77, scss/_general.scss */
+/* line 88, scss/_general.scss */
 #bottom-footer {
   padding: 0;
 }
-/* line 80, scss/_general.scss */
+/* line 91, scss/_general.scss */
 #bottom-footer .site-info {
   float: none;
   text-align: center;
@@ -327,17 +338,78 @@
 }
 /* line 5, scss/_faq.scss */
 #wpsm_accordion_100 .wpsm_panel-default .wpsm_panel-title a {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
-/* line 8, scss/_faq.scss */
+/* line 10, scss/_faq.scss */
 #wpsm_accordion_100 .wpsm_panel-default .wpsm_panel-title a .ac_title_class {
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 500;
 }
-/* line 12, scss/_faq.scss */
+/* line 15, scss/_faq.scss */
 #wpsm_accordion_100 .wpsm_panel-default .wpsm_panel-title a .ac_open_cl_icon {
   color: #C8CAB5 !important;
 }
-/* line 17, scss/_faq.scss */
+/* line 20, scss/_faq.scss */
 #wpsm_accordion_100 .wpsm_panel-default .wpsm_panel-body {
   font-family: 'Montserrat', sans-serif;
+}
+
+/* line 4, scss/_blog.scss */
+.blog-page .entry-content .blog-content .blog-author {
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 8, scss/_blog.scss */
+.blog-page .entry-content .blog-content .post-content-text {
+  text-align: left;
+}
+/* line 11, scss/_blog.scss */
+.blog-page .entry-content .blog-content .post-content-text .blog-title {
+  font-family: 'Amatic SC', cursive;
+}
+/* line 14, scss/_blog.scss */
+.blog-page .entry-content .blog-content .post-content-text .blog-title a {
+  color: #838383 !important;
+  font-size: 25px;
+}
+/* line 20, scss/_blog.scss */
+.blog-page .entry-content .blog-content .post-content-text .blog-short-content {
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 24, scss/_blog.scss */
+.blog-page .entry-content .blog-content .post-content-text .blog-more-link {
+  background-color: #AABE7F;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 34, scss/_blog.scss */
+.hentry {
+  margin: 50px 0 15px;
+}
+/* line 38, scss/_blog.scss */
+.hentry .post-thumbnail img {
+  height: 300px;
+  object-fit: contain;
+}
+/* line 44, scss/_blog.scss */
+.hentry .entry-header {
+  display: none;
+}
+/* line 48, scss/_blog.scss */
+.hentry .entry-meta {
+  display: none;
+}
+/* line 52, scss/_blog.scss */
+.hentry .mt-author-box {
+  display: none;
+}
+/* line 59, scss/_blog.scss */
+.hentry .entry-content .wp-block-group__inner-container p {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+/* line 70, scss/_blog.scss */
+.hentry .navigation .nav-links a {
+  background: #AABE7F !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 33px;
 }

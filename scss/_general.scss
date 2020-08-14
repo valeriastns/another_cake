@@ -18,9 +18,10 @@ $grey-color:#838383;
 
     p {
         font-family: 'Montserrat', sans-serif;
+        // font-family: 'Amatic SC', cursive;
         font-size: 16px;
-        font-weight: 100;
-        text-transform: uppercase;
+        font-weight: 400;
+        text-transform: capitalize;
     }
 
 }
@@ -30,11 +31,21 @@ $grey-color:#838383;
     font-size: 30px;
     color: $grey-color;
     text-transform: capitalize;
+    margin-right: 30px;
 
     &:hover {
         color: $main-color;
     }
+
 }
+#sticky-wrapper {
+    height: 0;
+}
+#site-navigation ul li.current-menu-item a {
+    color: $main-color;
+}
+
+
 
 .custom-header.no-bg-img {
     display: none;

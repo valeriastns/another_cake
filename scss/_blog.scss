@@ -1,0 +1,77 @@
+.blog-page {
+    .entry-content {
+        .blog-content {
+            .blog-author {
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            .post-content-text {
+                text-align: left;
+
+                .blog-title {
+                    font-family: 'Amatic SC', cursive;
+
+                    a {
+                        color: #838383 !important;
+                        font-size: 25px;
+                    }
+                }
+
+                .blog-short-content {
+                    font-family: 'Montserrat', sans-serif;
+                }
+
+                .blog-more-link {
+                    background-color: $green;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+    }
+}
+
+
+.hentry {
+    margin: 50px 0 15px;
+
+    .post-thumbnail {
+        img {
+            height: 300px;
+            object-fit: contain;
+        }
+    }
+
+    .entry-header {
+        display: none;
+    }
+
+    .entry-meta {
+        display: none;
+    }
+
+    .mt-author-box {
+        display: none;
+    }
+
+    .entry-content {
+        .wp-block-group {
+            &__inner-container {
+                p {
+                    text-align: left;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+    }
+
+    .navigation {
+        .nav-links {
+
+            a {
+                background: $green!important;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 33px;
+            }
+        }
+    }
+}
