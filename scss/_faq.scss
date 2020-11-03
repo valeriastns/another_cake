@@ -1,15 +1,16 @@
 #wpsm_accordion_100 {
-    text-align-last: left;
+    text-align: left;
 
     .wpsm_panel-default {
         .wpsm_panel-title a {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Montserrat', sans-serif!important;
             
 
 
             .ac_title_class {
                 font-size: 16px;
-                font-weight: 500;
+                font-weight: 300;
+                font-family: 'Montserrat', sans-serif!important;
             }
 
             .ac_open_cl_icon {
@@ -18,7 +19,7 @@
         }
 
         .wpsm_panel-body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Montserrat', sans-serif!important;
         }
     }
 }

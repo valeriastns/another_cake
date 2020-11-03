@@ -2,27 +2,50 @@
     .site-branding {
         width: 100% !important;
 
+        a img {
+            width: 170px;
+        }
+
         p {
-            font-size: 14px;
+            font-size: 13px;
+            font-weight: 100;
             margin-bottom: 0;
         }
     }
 
     .menu-toggle {
-        background: $dusty-green;
+        background: $purple;
 
         &:hover {
-            background: $dusty-green !important;
+            background: $purple !important;
+
         }
 
         a {
             font-family: 'Amatic SC', cursive;
+            color: #838383;
             font-size: 25px;
         }
     }
 
+    .woocommerce-js #main .woocommerce-products-header .term-description {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 100;
+    }
+
     #site-navigation ul li a {
         font-size: 23px !important;
+    }
+
+    body .tax-product_cat #main .product {
+        width: 100%;
+
+        .entry-header {
+            h2 {
+                text-align: center;
+            }
+        }
     }
 
     .about-page {
@@ -30,72 +53,139 @@
             .wp-block-group {
                 &__inner-container {
                     padding: 20px 0;
+                    color: $grey-color;
                 }
-            }
-        }
 
-        .wp-block-image.is-resized {
-            &:before {
-                display: none;
-                // content: "";
-                // width: 295px !important;
-                // height: 295px !important;
-                // background-color: $purple;
-                // position: absolute;
-                // left: -10px;
-                // top: -15px;
-                // z-index: 0;
-                // border-radius: 100%
-            }
-        }
-    }
+                p {
+                    font-size: 14px;
+                    color: $grey-color;
 
-    #wpsm_accordion_100 {
-        .wpsm_panel-default {
-            .wpsm_panel-body {
-                text-align: left;
-            }
-        }
-    }
+                }
 
-    .contacts-page {
-        .social-icons {
-            a:nth-child(1) {
-                background-color: $dusty-green!important;
+                ul li {
+                    font-size: 14px;
+                    color: $grey-color;
+
+                }
             }
         }
     }
 }
+
+.wp-block-image.is-resized {
+    &:before {
+        display: none;
+    }
+}
+
+
+#wpsm_accordion_100 {
+    .wpsm_panel-default {
+        .wpsm_panel-title a .ac_title_class {
+            font-size: 14px !important;
+        }
+
+        .wpsm_panel-body {
+            text-align: left;
+            font-size: 13px !important;
+        }
+    }
+}
+
+.delivery-page .hentry .entry-content .wp-block-group__inner-container p {
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.hentry .entry-content {
+    .wp-block-group__inner-container {
+        p {
+            font-size: 14px !important;
+        }
+    }
+
+    .blog-content .post-content-text {
+        .blog-title {
+            font-weight: 100;
+        }
+
+        .blog-content-excerpt {
+            font-size: 14px;
+        }
+    }
+}
+
+
+
+.contacts-page {
+    .entry-content {
+        .has-text-align-center {
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 13px;
+            text-align: left;
+            font-weight: 100;
+        }
+
+        .social-icons {
+            text-align: center;
+        }
+
+        .wpforms-container-full {
+            .wpforms-field-label {
+                font-size: 20px !important;
+                font-weight: 100;
+            }
+
+            .wpforms-form .wpforms-field-label-inline {
+                font-size: 13px;
+                font-family: 'Montserrat', sans-serif !important;
+                font-weight: 100;
+            }
+        }
+    }
+}
+
+
 @media screen and (max-width: 992px) {
     .site-branding {
         width: 100%;
+
         p {
             margin-bottom: 0;
         }
     }
+
     .menu-toggle {
-        background: $dusty-green;
+        background: white;
+
 
         &:hover {
-            background: $dusty-green !important;
+            background: white !important;
+
         }
 
         a {
             font-family: 'Amatic SC', cursive;
+            color: #838383 !important;
             font-size: 25px;
+
         }
     }
+
     #site-navigation ul li a {
-        font-size: 23px!important;
+        font-size: 23px !important;
     }
+
     .contacts-page {
         .social-icons {
             a:nth-child(1) {
-                background-color: $dusty-green!important;
+                background-color: $green !important;
             }
         }
     }
-}
-@media screen and (max-width: 1200px) {
+
 
 }
+
+@media screen and (max-width: 1200px) {}

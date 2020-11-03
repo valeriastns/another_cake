@@ -1,5 +1,18 @@
 .blog-page {
     .entry-content {
+        position: relative;
+
+        .img-blog-page {
+            width: 250px;
+            height: 240px;
+            background: url("img/mix.png");
+            position: absolute;
+            left: 750px;
+            top: 70px;
+
+
+        }
+
         .blog-content {
             .blog-author {
                 font-family: 'Montserrat', sans-serif;
@@ -12,7 +25,7 @@
                     font-family: 'Amatic SC', cursive;
 
                     a {
-                        color: #838383 !important;
+                        color: $main-color !important;
                         font-size: 25px;
                     }
                 }
@@ -35,10 +48,7 @@
     margin: 50px 0 15px;
 
     .post-thumbnail {
-        img {
-            height: 300px;
-            object-fit: contain;
-        }
+        display: none;
     }
 
     .entry-header {
@@ -54,6 +64,14 @@
     }
 
     .entry-content {
+        .blog-thumb {
+            display: none;
+        }
+
+        .blog-author {
+            display: none;
+        }
+
         .wp-block-group {
             &__inner-container {
                 p {
@@ -62,16 +80,17 @@
                 }
             }
         }
+
+        // .navigation .nav-links a {
+        //     font-family: 'Amatic SC', cursive;
+        // }
     }
 
     .navigation {
         .nav-links {
-
-            a {
-                background: $green!important;
-                font-family: 'Montserrat', sans-serif;
-                font-size: 33px;
-            }
+            background: $dusty-green !important;
+            font-family: 'Amatic SC', cursive !important;
+            font-size: 33px;
         }
     }
 }

@@ -1,0 +1,14 @@
+.main-page {
+    .hentry {
+        margin: 0;
+        .entry-content {
+            .main-page-tagline {
+                font-size: 22px;
+                font-family: 'Amatic SC', cursive;
+                margin-bottom: 20px;
+                color:$grey-color;
+                font-weight: 300;
+            }
+        }
+    }
+}

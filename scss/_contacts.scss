@@ -12,7 +12,7 @@
             .wpforms-field-label {
                 font-family: 'Amatic SC', cursive;
                 color: $green;
-                font-size: 22px;
+                font-size: 24px;
             }
 
             .wpforms-submit {
@@ -35,6 +35,16 @@
                 color:$grey-color;
             }
         }
+        .wpforms-confirmation-container-full {
+            background:$green;
+            border: none;
+
+            p {
+                font-family: 'Amatic SC', cursive;
+                font-size: 20px;
+                color: $dark-grey;
+            }
+        }
     }
     .social-icons a{
         font-size: 30px;
@@ -50,6 +60,5 @@
             background-color: $purple;
             
         }
-
     }
 }
