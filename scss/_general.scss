@@ -49,6 +49,10 @@ $grey-color:#838383;
     color: $main-color;
 }
 
+#site-navigation ul li a:active, 
+#site-navigation ul li a:focus {
+    outline: none;
+}
 
 
 .custom-header.no-bg-img {

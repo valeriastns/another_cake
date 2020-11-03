@@ -49,94 +49,100 @@
   color: #EE9E95;
 }
 
-/* line 54, scss/_general.scss */
+/* line 52, scss/_general.scss */
+#site-navigation ul li a:active,
+#site-navigation ul li a:focus {
+  outline: none;
+}
+
+/* line 58, scss/_general.scss */
 .custom-header.no-bg-img {
   display: none;
 }
 
-/* line 61, scss/_general.scss */
+/* line 65, scss/_general.scss */
 .woocommerce-js #main .woocommerce-breadcrumb {
   display: none;
 }
-/* line 65, scss/_general.scss */
+/* line 69, scss/_general.scss */
 .woocommerce-js #main .woocommerce-result-count {
   display: none;
 }
-/* line 70, scss/_general.scss */
+/* line 74, scss/_general.scss */
 .woocommerce-js #main .woocommerce-products-header h1 {
   display: none;
 }
-/* line 75, scss/_general.scss */
+/* line 79, scss/_general.scss */
 .woocommerce-js #main .woocommerce-products-header .term-description {
   font-family: 'Montserrat', sans-serif;
   margin-top: 50px;
   font-size: 17px;
 }
-/* line 82, scss/_general.scss */
+/* line 86, scss/_general.scss */
 .woocommerce-js #main .woocommerce-loop-product__title {
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
   color: #838383;
 }
-/* line 89, scss/_general.scss */
+/* line 93, scss/_general.scss */
 .woocommerce-js #main .woo-variation-gallery-product {
   margin-top: 50px;
 }
-/* line 92, scss/_general.scss */
+/* line 96, scss/_general.scss */
 .woocommerce-js #main .woo-variation-gallery-product .product_title {
   font-family: 'Amatic SC', cursive;
   color: #EE9E95;
 }
-/* line 97, scss/_general.scss */
+/* line 101, scss/_general.scss */
 .woocommerce-js #main .woo-variation-gallery-product .woocommerce-product-details__short-description {
   font-family: 'Montserrat', sans-serif;
 }
-/* line 101, scss/_general.scss */
+/* line 105, scss/_general.scss */
 .woocommerce-js #main .woo-variation-gallery-product .posted_in {
   display: none;
 }
-/* line 106, scss/_general.scss */
+/* line 110, scss/_general.scss */
 .woocommerce-js #main .woo-variation-gallery-product .woocommerce-Tabs-panel--description h2 {
   display: none;
 }
-/* line 112, scss/_general.scss */
+/* line 116, scss/_general.scss */
 .woocommerce-js #main .woo-variation-gallery-product .woocommerce-tabs .tabs {
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
   color: #EE9E95;
 }
-/* line 120, scss/_general.scss */
+/* line 124, scss/_general.scss */
 .woocommerce-js #main .related > h2 {
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
   color: #EE9E95;
 }
-/* line 126, scss/_general.scss */
+/* line 130, scss/_general.scss */
 .woocommerce-js #main .woocommerce-loop-category__title {
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
   font-weight: 100;
   color: #838383;
 }
-/* line 133, scss/_general.scss */
+/* line 137, scss/_general.scss */
 .woocommerce-js #main .woocommerce-loop-category__title mark {
   display: none;
 }
 
-/* line 145, scss/_general.scss */
+/* line 149, scss/_general.scss */
 #jtg-119 .modula-items .figc .jtg-title {
   display: none;
 }
-/* line 148, scss/_general.scss */
+/* line 152, scss/_general.scss */
 #jtg-119 .modula-items .figc .jtg-title:hover {
   display: none;
 }
 
-/* line 161, scss/_general.scss */
+/* line 165, scss/_general.scss */
 #top-footer .inst-link {
   text-align: center;
 }
-/* line 164, scss/_general.scss */
+/* line 168, scss/_general.scss */
 #top-footer .inst-link a {
   font-family: 'Amatic SC', cursive;
   font-size: 22px;
@@ -144,11 +150,11 @@
   color: #AABE7F;
 }
 
-/* line 173, scss/_general.scss */
+/* line 177, scss/_general.scss */
 #bottom-footer {
   padding: 0;
 }
-/* line 177, scss/_general.scss */
+/* line 181, scss/_general.scss */
 #bottom-footer .site-info {
   float: none;
   text-align: center;
